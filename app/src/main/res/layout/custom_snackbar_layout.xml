@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end"
+    android:background="#9c8cda"
+    android:paddingVertical="16dp">
+
+    <!-- Customize the appearance of your Snackbar as needed -->
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:paddingLeft="30px"
+        android:text="Your message goes here" />
+
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginRight="50px"
+        android:background="#C3A0D9"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

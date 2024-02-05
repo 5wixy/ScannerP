@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditItem"
+    android:background="@drawable/bg_app"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDate"
+        android:text="Last Updated"
+        android:layout_above="@id/code"
+        android:layout_centerHorizontal="true"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/EditName"
+        android:id="@+id/code"
+        android:text="Code"
+        android:textSize="18dp"
+        android:textColor="#ffc0cb"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Edit"
+        android:layout_below="@id/EditPrice"
+        android:layout_centerInParent="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Cancel"
+        android:layout_below="@id/btnEdit"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <EditText
+        android:id="@+id/EditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:id="@+id/EditPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditName"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Price" />
+
+
+</RelativeLayout>
