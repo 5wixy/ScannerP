@@ -6,7 +6,7 @@ This Android barcode scanner features a backend using Firestore to scan items an
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/5wixy/Scanner.git
+   git clone https://github.com/5wixy/ScannerP.git
 Create a Firestore project and move google_services.json into Scanner/app/.
 
 Follow the instructions below to build the project.
