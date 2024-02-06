@@ -14,7 +14,7 @@ Follow the instructions below to build the project.
 ## Project Description
 The primary purpose of this project is to scan items and return their prices in the shop where the application is used. We leverage the capabilities of the ZXing scanner, and credit is given to the ZXing project for their scanner integration.
 
-Usage Instructions
+## Usage Instructions
 Navigate through the menu.
 
 Pressing the "Scan" button opens the scanner page. Point the mobile camera at an item's barcode:
